@@ -1,0 +1,154 @@
+body {    
+    background: linear-gradient(to right, rgb(16, 16, 77), rgb(23, 19, 31));
+    margin: 0;  
+    max-height: 100vh;
+    overflow: hidden;  
+    
+  }
+
+aside {
+    display: flex;
+    flex-direction: column;    
+  }
+
+header {
+    display: flex;
+    flex-direction: column;
+    margin-right: 8rem;
+  }
+
+h1 {
+    color: white;
+    font-size: 70px;
+    align-self: flex-end;
+    margin-bottom: 10px;
+    margin-top: 70px;
+    letter-spacing: 6px;
+    
+}
+
+h2 {
+    color: rgba(255, 208, 0, 0.856);
+    letter-spacing: 15px;
+    font-weight: lighter;
+    font-size: 30px;
+    align-self: flex-end;
+    margin-top: 0;
+
+}
+
+#sun {
+    height: 170vh;
+    width: 105vw;
+    background-color: rgba(255, 208, 0, 0.767); /* Gul färg för cirkeln */
+    position: absolute;
+    right: 35%; 
+    transform: translate(-50%, -50%); 
+    border-radius: 50%; 
+    margin-top: 20rem;
+    margin-bottom: 0;
+
+}
+
+.planets {
+    display: flex;
+    
+}
+
+
+#mercery {
+    height: 20px;
+    width: 20px;
+    background-color: grey;
+    border-radius: 50%;
+    position: absolute;
+    left: 18vw; 
+    margin-top: 20rem;
+}
+
+#venus {
+    height: 35px;
+    width: 35px;
+    background-color: rgba(245, 216, 216, 0.76);
+    border-radius: 50%;
+    position: absolute;
+    left: 22vw; 
+    margin-top: 19.4rem;
+}
+
+#earth {
+    height: 35px;
+    width: 35px;
+    background-color: rgba(104, 179, 240, 0.767);
+    border-radius: 50%;
+    position: absolute;
+    left: 27vw; 
+    margin-top: 19.3rem;
+}
+
+#mars {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(204, 90, 55);
+    border-radius: 50%;
+    position: absolute;
+    left: 32vw; 
+    margin-top: 20rem;
+}
+
+#jupiter {
+    height: 220px;
+    width: 220px;
+    background-color: rgba(211, 136, 87, 0.938);
+    border-radius: 50%;
+    position: absolute;
+    left: 39vw; 
+    margin-top: 14rem;
+}
+
+
+#saturn {
+    width: 190px;
+    height: 190px;
+    background-color: rgb(185, 144, 89);
+    border-radius: 50%;
+    margin: 100px;
+    position: relative;
+    transform-style: preserve-3d;
+    left: 52vw;
+    margin-top: 15rem;
+
+  }
+  
+#ring {
+    width: 150%;
+    height: 150%;
+    border: solid 5px rgba(248, 247, 247, 0.603);
+    border-radius: 50%;
+    top: -25%; 
+    left: -25%; 
+    position: absolute;
+    transform: rotate3d(0.8, 0.2, 0, 75deg); 
+    box-sizing: border-box;
+  }
+
+  #uranus {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(193, 197, 231, 0.938);
+    border-radius: 50%;
+    position: absolute;
+    left: 74vw; 
+    margin-top: 17rem;
+  }
+
+  #neptune {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(98, 128, 155, 0.938);
+    border-radius: 50%;
+    position: absolute;
+    left: 87vw; 
+    margin-top: 17rem;
+   
+  }
